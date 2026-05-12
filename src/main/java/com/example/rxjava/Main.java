@@ -1,5 +1,6 @@
 package com.example.rxjava;
 
+import com.example.rxjava.backpressure.task6_1.DebounceDemo;
 import com.example.rxjava.observable.task2_1.FirstObservableDemo;
 import com.example.rxjava.observable.task2_2.ColdObservableDemo;
 import com.example.rxjava.observable.task2_2.HotObservableDemo;
@@ -29,5 +30,6 @@ public class Main {
         CompletableDemo.demonstrate();
         SubscribeOnObserveOnDemo.demonstrate();
         ParallelServiceDemo.demonstrate();
+        DebounceDemo.demonstrate();
     }
 }
