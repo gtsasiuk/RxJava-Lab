@@ -21,22 +21,35 @@ import com.example.rxjava.specialized.task4_2.MaybeDemo;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        // Task1
         FunctionalStyleDemo.demonstrate();
         ParadigmsComparisonDemo.demonstrate();
+
+        // Task2
         FirstObservableDemo.demonstrate();
         ColdObservableDemo.demonstrate();
         HotObservableDemo.demonstrate();
+
+        // Task3
         MapFilterDemo.demonstrate();
         FlatMapDemo.demonstrate();
         FlatConcatDemo.demonstrate();
+
+        // Task4
         SingleDemo.demonstrate();
         MaybeDemo.demonstrate();
         CompletableDemo.demonstrate();
+
+        // Task5
         SubscribeOnObserveOnDemo.demonstrate();
         ParallelServiceDemo.demonstrate();
+
+        // Task6
         DebounceDemo.demonstrate();
         BufferDemo.demonstrate();
         FlowableBackpressureDemo.demonstrate();
+
+        // Task7
         ErrorRecoveryDemo.demonstrate();
         RetryBackoffDemo.demonstrate();
     }
