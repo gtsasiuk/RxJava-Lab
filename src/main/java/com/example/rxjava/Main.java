@@ -8,6 +8,7 @@ import com.example.rxjava.operators.task3_2.FlatConcatDemo;
 import com.example.rxjava.operators.task3_2.FlatMapDemo;
 import com.example.rxjava.paradigms.task1_1.FunctionalStyleDemo;
 import com.example.rxjava.paradigms.task1_2.ParadigmsComparisonDemo;
+import com.example.rxjava.schedulers.task5_1.SubscribeOnObserveOnDemo;
 import com.example.rxjava.specialized.task4_1.SingleDemo;
 import com.example.rxjava.specialized.task4_2.CompletableDemo;
 import com.example.rxjava.specialized.task4_2.MaybeDemo;
@@ -25,5 +26,6 @@ public class Main {
         SingleDemo.demonstrate();
         MaybeDemo.demonstrate();
         CompletableDemo.demonstrate();
+        SubscribeOnObserveOnDemo.demonstrate();
     }
 }
