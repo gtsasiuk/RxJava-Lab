@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
 
 public class FlatConcatDemo {
     public static void demonstrate() throws InterruptedException {
-
         List<FoodOrder> orders = Arrays.asList(
                 new FoodOrder("ZAM-01", Arrays.asList("Піца Маргарита","Кола 0.5л")),
                 new FoodOrder("ZAM-02", Arrays.asList("Борщ","Вареники","Компот")),

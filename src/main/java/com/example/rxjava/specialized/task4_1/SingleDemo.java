@@ -4,9 +4,7 @@ import io.reactivex.rxjava3.core.Single;
 
 public class SingleDemo {
     public static void demonstrate() {
-
         System.out.println("------------- Task 4.1 begin -------------");
-
         getUserById(42).subscribe(user -> System.out.println("(+) Знайдено: " + user),
                     error -> System.out.println("(-) Помилка: " + error.getMessage()));
 
