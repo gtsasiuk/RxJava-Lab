@@ -4,6 +4,7 @@ import com.example.rxjava.backpressure.task6_1.DebounceDemo;
 import com.example.rxjava.backpressure.task6_2.BufferDemo;
 import com.example.rxjava.backpressure.task6_2.FlowableBackpressureDemo;
 import com.example.rxjava.errors.task7_1.ErrorRecoveryDemo;
+import com.example.rxjava.errors.task7_2.RetryBackoffDemo;
 import com.example.rxjava.observable.task2_1.FirstObservableDemo;
 import com.example.rxjava.observable.task2_2.ColdObservableDemo;
 import com.example.rxjava.observable.task2_2.HotObservableDemo;
@@ -37,6 +38,6 @@ public class Main {
         BufferDemo.demonstrate();
         FlowableBackpressureDemo.demonstrate();
         ErrorRecoveryDemo.demonstrate();
-
+        RetryBackoffDemo.demonstrate();
     }
 }
